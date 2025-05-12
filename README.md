@@ -17,23 +17,23 @@ python3 -m pip install raylib
 ```
 
 After you've installed the required libraries, open a terminal and browse to the project's root folder. 
-Start the program by running the following command.```
+Start the program by running the following command.
 
+```
 python3 batter
 or
 py batter
-
 ```
+
 You can also run the program from an IDE like Visual Studio Code.
 Start your IDE and open the project folder.
 Select the main module inside the hunter folder and click the "run" icon.
 
-## Project Structure
+# Project Structure
 
 ---
 The project files and folders are organized as follows:
 ```
-
 root (project root folder)
 +-- batter (source code for game)
 +-- game (specific game classes)
@@ -44,7 +44,6 @@ root (project root folder)
 +-- **main**.py (entry point for program)
 +-- constants.py (game constants)
 +-- README.md (general info)
-
 ```
 
 ## Required Technologies
