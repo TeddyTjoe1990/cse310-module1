@@ -18,28 +18,10 @@ space-invaders/
 ├── game.py
 ├── README.md
 └── assets/
-    ├── player.png
-    ├── enemy.png
-    ├── bullet.png
-    ├── spaceship.png
-    ├── laser.wav
-    ├── explosion.wav
-    └── background.mp3
-```
-
-## 📥 Installation
-
-1. Make sure Python 3 is installed on your system.  
-2. Install Pygame library:  
-   ```bash
-   pip install pygame
-
-
-## 🚀 Run the game
-```bash
-python game.py
-
-
-## 🧑‍💻 Created by
-```
-Jannuar Teddy Herjanto
+├── player.png
+├── enemy.png
+├── bullet.png
+├── spaceship.png
+├── laser.wav
+├── explosion.wav
+└── background.mp3
