@@ -40,3 +40,7 @@ space-invaders/
 2. Run the game:
     ```
     python game.py
+
+## Created by
+```
+Jannuar Teddy Herjanto
