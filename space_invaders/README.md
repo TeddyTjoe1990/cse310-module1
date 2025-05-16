@@ -18,13 +18,13 @@ space-invaders/
 ├── game.py
 ├── README.md
 └── assets/
-├── player.png
-├── enemy.png
-├── bullet.png
-├── spaceship.png
-├── laser.wav
-├── explosion.wav
-└── background.mp3
+    ├── player.png
+    ├── enemy.png
+    ├── bullet.png
+    ├── spaceship.png
+    ├── laser.wav
+    ├── explosion.wav
+    └── background.mp3
 ```
 
 ## 📥 Installation
@@ -36,10 +36,10 @@ space-invaders/
    ```
 
 ## 🚀 Run the game
-```
+```bash
 python game.py
 ```
 
 ## 🧑‍💻 Created by
-```
+
 Jannuar Teddy Herjanto
