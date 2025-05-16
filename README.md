@@ -45,5 +45,6 @@ python game.py
 ```
 
 ## 🧑‍💻 Created by
-
+```bash
 Jannuar Teddy Herjanto
+```
