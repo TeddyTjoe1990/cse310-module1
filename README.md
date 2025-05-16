@@ -41,6 +41,6 @@ space-invaders/
    ```bash
    python game.py
 
-## Created by
+## 🧑‍💻 Created by
 ```
 Jannuar Teddy Herjanto
