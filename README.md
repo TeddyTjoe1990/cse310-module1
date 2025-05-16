@@ -29,7 +29,7 @@ space-invaders/
 │ ├── explosion.wav
 │ └── background.mp3
 └── dist/ # (Optional) Compiled .exe output from PyInstaller
-
+```
 
 ## 🚀 How to Run
 
