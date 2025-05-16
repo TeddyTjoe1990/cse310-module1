@@ -15,7 +15,7 @@ It’s designed as a beginner-friendly project for learning 2D game development.
 - Main menu and restart feature after game over
 
 ## 📁 Project Structure
-``
+```
 space-invaders/
 │
 ├── game.py # Main game script
