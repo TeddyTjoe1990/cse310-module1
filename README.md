@@ -1,59 +1,32 @@
-# cse310-module1
-Sprint 1 assignment - Make a Game using pygame - Python
+# 🛸 Space Invaders Game (Pygame)
 
-# Batter Game
+This is a simple **Space Invaders** game built using **Python and Pygame**.  
+It’s designed as a beginner-friendly project for learning 2D game development.
 
-This game is a simple Pygame based game, where the player controls a paddle to hit a ball and gain the score.
+## 🎮 Features
 
-## Getting Started
+- Player controls (move left/right and shoot)
+- Enemies move horizontally and descend over time
+- Collision detection between bullets and enemies
+- Score increases when enemies are destroyed
+- Game Over when enemies reach the player
+- Sound effects and background music
+- Automatic level difficulty increase
+- Main menu and restart feature after game over
 
----
-
-Make sure you have Python 3.8.0 or newer and Raylib Python CFFI 3.7 installed and running on your machine. 
-You can install Raylib Python CFFI by opening a terminal and running the following command.
-
-```
-python3 -m pip install raylib
-```
-
-After you've installed the required libraries, open a terminal and browse to the project's root folder. 
-Start the program by running the following command.
-
-```
-python3 batter
-or
-py batter
-```
-
-You can also run the program from an IDE like Visual Studio Code.
-Start your IDE and open the project folder.
-Select the main module inside the hunter folder and click the "run" icon.
-
-# Project Structure
-
----
-The project files and folders are organized as follows:
-```
-root (project root folder)
-+-- batter (source code for game)
-+-- game (specific game classes)
-+-- casting (various actor classes)
-+-- directing (director and scene manager classes)
-+-- scripting (various action classes)
-+-- services (various service classes)
-+-- **main**.py (entry point for program)
-+-- constants.py (game constants)
-+-- README.md (general info)
-```
-
-## Required Technologies
-
----
-* Python 3.8.0 or latest version
-* Raylib Python CFFI 3.7
-
-## Authors
-
----
-* Teddy Tjoe (her21059@byui.edu/jherjanto@byupathway.edu)
-```
+## 📁 Project Structure
+``
+space-invaders/
+│
+├── game.py # Main game script
+├── README.md # This documentation
+├── assets/ # Folder for all assets
+│ ├── player.png
+│ ├── enemy.png
+│ ├── bullet.png
+│ ├── spaceship.png
+│ ├── laser.wav
+│ ├── explosion.wav
+│ └── background.mp3
+└── dist/ # (Optional) Compiled .exe output from PyInstaller
+``
