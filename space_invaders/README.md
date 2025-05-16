@@ -25,3 +25,21 @@ space-invaders/
 ├── laser.wav
 ├── explosion.wav
 └── background.mp3
+```
+
+## 📥 Installation
+
+1. Make sure Python 3 is installed on your system.  
+2. Install Pygame library:  
+   ```bash
+   pip install pygame
+   ```
+
+## 🚀 Run the game
+```
+python game.py
+```
+
+## 🧑‍💻 Created by
+```
+Jannuar Teddy Herjanto
