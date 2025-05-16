@@ -38,6 +38,6 @@ space-invaders/
    pip install pygame
 
 2. Run the game:
-    ``
+    ```
     python game.py
     
