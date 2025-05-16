@@ -33,11 +33,11 @@ space-invaders/
 
 ## 📥 Installation
 
-1. Make sure Python 3 is installed on your system.  
-2. Install Pygame library:  
-   ```bash
-   pip install pygame
-   ```
+Make sure Python 3 is installed on your system.  
+Install Pygame library:  
+```bash
+pip install pygame
+```
 
 ## 🚀 Run the game
 ```bash
