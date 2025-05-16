@@ -31,16 +31,20 @@ space-invaders/
 └── dist/ # (Optional) Compiled .exe output from PyInstaller
 ```
 
-## 🚀 How to Run
+## 📥 Installation
 
-1. Make sure Python 3 and Pygame are installed:
-   ```bash
-   pip install pygame
+Make sure Python 3 is installed on your system.  
+Install Pygame library:  
+```bash
+pip install pygame
+```
 
-2. Run the game:
-   ```bash
-   python game.py
+## 🚀 Run the game
+```bash
+python game.py
+```
 
 ## 🧑‍💻 Created by
-```
+```bash
 Jannuar Teddy Herjanto
+```
