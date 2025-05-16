@@ -15,7 +15,7 @@ It’s designed as a beginner-friendly project for learning 2D game development.
 - Main menu and restart feature after game over
 
 ## 📁 Project Structure
-``
+
 space-invaders/
 │
 ├── game.py # Main game script
@@ -29,7 +29,7 @@ space-invaders/
 │ ├── explosion.wav
 │ └── background.mp3
 └── dist/ # (Optional) Compiled .exe output from PyInstaller
-``
+
 
 ## 🚀 How to Run
 
