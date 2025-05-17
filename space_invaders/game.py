@@ -62,7 +62,7 @@ bullet_sound = pygame.mixer.Sound("assets/laser.wav")
 explosion_sound = pygame.mixer.Sound("assets/explosion.wav")
 enemy_shoot_sound = pygame.mixer.Sound("assets/enemy_shoot.mp3")
 
-# Pause
+# Pause the game
 paused = False
 
 def draw_pause():
@@ -194,7 +194,7 @@ while running:
 
         # Enemy shooting logic with slower bullet and longer delay
         if current_time - last_enemy_shot_time > enemy_bullet_delay:
-            if random.random() < 0.002:  # peluang tembakan lebih kecil
+            if random.random() < 0.002:  # shot chance is smaller
                 enemy_bullets.append({"x": enemy["x"], "y": enemy["y"] + 40, "y_change": enemy_bullet_y_change})
                 enemy_shoot_sound.play()
                 last_enemy_shot_time = current_time
@@ -210,7 +210,7 @@ while running:
 
         screen.blit(enemy["img"], (enemy["x"], enemy["y"]))
 
-    # Fast enemies logic - no shooting
+    # enemies2 logic - no shooting
     if random.randint(0, 300) == 1:
         fast_enemies.append({"x": random.randint(0, 760), "y": 50, "x_change": 0.8})
 
@@ -233,7 +233,7 @@ while running:
 
         screen.blit(fast_enemy_img, (fe["x"], fe["y"]))
 
-    # Tank enemies logic - no shooting
+    # enemies3 logic - no shooting
     if random.randint(0, 800) == 1:
         tank_enemies.append({"x": random.randint(0, 740), "y": 50, "x_change": 0.2, "health": 3})
 
