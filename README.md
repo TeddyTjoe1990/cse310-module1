@@ -38,6 +38,7 @@ A classic **Space Invaders** - style arcade game built with **Python** and **Pyg
 
    ```bash
    pip install pygame
+   ```
 
 ## 🚀 Run the game
 ```bash
