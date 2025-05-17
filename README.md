@@ -43,6 +43,7 @@ A classic **Space Invaders** - style arcade game built with **Python** and **Pyg
 ## 🚀 Run the game
 ```bash
 python game.py
+```
 
 ## 🧑‍💻 Created by
 ```bash
